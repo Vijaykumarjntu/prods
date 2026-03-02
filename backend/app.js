@@ -5,7 +5,6 @@ app.get("/api/products",async(req,res)=>{
     return res.json("this is the products")
 })
 
-git remote add origin https://github.com/Vijaykumarjntu/prods.git
 app.listen(3000,()=>{
     console.log("server started running")
 })
