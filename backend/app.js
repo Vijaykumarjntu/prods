@@ -19,6 +19,13 @@ const products = [
     "category": "Electronics",
     "price": 499.99,
     "description": "A budget-friendly smartphone with great features."
+  },
+  {
+    "id": "P003",
+    "name": "buggati veyron",
+    "category": "Electronics",
+    "price": 49999999.99,
+    "description": "A budget-friendly super car,so it will be status symbol,we are aiming to own it we will be owning it oneday"
   }
 ]
 

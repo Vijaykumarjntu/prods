@@ -9,7 +9,8 @@ function App() {
   useEffect(()=>{
     const fetchProducts = async()=>{
       const res = await axios.get('http://localhost:5000/api/products')
-      setProducts(res)
+      console.log(res.data);
+      setProducts(res.data);
     }
     fetchProducts()
   },[])
@@ -20,6 +21,8 @@ function App() {
         <div className='prod-item'>
           <h2>{x.title}</h2>
           <p>{x.description}</p>
+          <p>{x.price}</p>
+          <p>{x.category}</p>
         </div>
       ))}
     </div>
